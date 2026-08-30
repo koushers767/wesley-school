@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Public Speaking Training Programme">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12263a"/>
+      <stop offset="0.55" stop-color="#571c24"/>
+      <stop offset="1" stop-color="#7a1f2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#c79a3a" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#c79a3a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+
+  <!-- Microphone icon -->
+  <g transform="translate(600 300)" fill="none" stroke="#e3bf54" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-46" y="-120" width="92" height="150" rx="46"/>
+    <path d="M-86 -14 a86 86 0 0 0 172 0"/>
+    <line x1="0" y1="72" x2="0" y2="126"/>
+    <line x1="-44" y1="126" x2="44" y2="126"/>
+  </g>
+
+  <!-- Gold rule -->
+  <rect x="540" y="486" width="120" height="5" rx="2.5" fill="#c79a3a"/>
+
+  <!-- Label -->
+  <text x="600" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#faf7f0">Public Speaking</text>
+  <text x="600" y="606" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" letter-spacing="6" fill="#e3bf54">WESLEY SCHOOL</text>
+</svg>

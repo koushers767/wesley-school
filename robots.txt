@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koushers767.github.io/wesley-school/sitemap.xml
